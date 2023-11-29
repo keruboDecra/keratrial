@@ -14,7 +14,6 @@ import streamlit as st
 from keras.models import load_model
 from keras.preprocessing import image
 import numpy as np
-import matplotlib.pyplot as plt
 
 # Load the trained MobileNetV2 model
 model_path = 'mobilenet_model'
