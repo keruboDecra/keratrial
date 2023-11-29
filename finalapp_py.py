@@ -5,7 +5,7 @@ import numpy as np
 
 # Specify the full path to the saved model folder
 model_path = 'mobilenet_model'
-model = tf.keras.models.load_model(model_path, compile=False)
+model = tf.keras.models.load_model(model_path, compile=True)
 
 # Set image dimensions
 img_width, img_height = 150, 150
