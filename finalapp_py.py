@@ -17,7 +17,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load the trained MobileNetV2 model
-model_path = '/content/drive/My Drive/defect model/mobilenet_model.h5'
+model_path = 'mobilenet_model'
 model = load_model(model_path)
 
 # Set image dimensions
