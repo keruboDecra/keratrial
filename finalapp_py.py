@@ -15,8 +15,8 @@ from keras.preprocessing import image
 import numpy as np
 
 # Load the trained MobileNetV2 model
-model_path = 'mobilenet_model'
-model = load_model(model_path)
+
+model = tf.keras.models.load_model('mobilenet_model')
 
 # Set image dimensions
 img_width, img_height = 150, 150
